@@ -1,8 +1,12 @@
+import { RouterProvider } from "react-router-dom"
+import { mainRouter } from "./router/maiinRouter"
 
 
 const App = () => {
   return (
-    <div className="text-[red] bg-[Blue] ">Naeto Gold Ecommerce Store </div>
+    <div>
+      <RouterProvider router={mainRouter}/>
+    </div>
   )
 }
 

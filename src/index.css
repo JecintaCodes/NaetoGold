@@ -7,8 +7,13 @@
 color: #242424;
 
 }
-
-
-
-
+/* 
+@font-face {
+  font-family: 'Poppins'
+  src: url('./fonts/YourFontFile.woff2') format('woff2'),
+       url('./fonts/YourFontFile.woff') format('woff'),
+       url('./fonts/YourFontFile.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
 
